@@ -77,78 +77,59 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-        Image.asset('images/tutiu.PNG',
-        height: 200,
-        width: 200,
-        ),
-        Image.network('https://th.bing.com/th/id/R.1816c51377b126cc3a42f5e83656506a?rik=HvR3iBwDaDZw%2bg&riu=http%3a%2f%2fpic.616pic.com%2fys_img%2f00%2f92%2f68%2fmVu0vDS5TA.jpg&ehk=y%2fvSH2nBmbV5p8oa17VL%2bhOt4mfmhHaSxNpLUU%2bxEbI%3d&risl=&pid=ImgRaw&r=0',
-        height: 100,
-        width: 100,
-        ),
-        Text(
-          "BIODATA DIRI",
-        style:TextStyle(fontWeight:FontWeight.bold, fontSize: 30),),
-          
+          // Center is a layout widget. It takes a single child and positions it
+          // in the middle of the parent.
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Image.asset(
+            'images/alwi.PNG',
+            height: 200,
+            width: 200,
+          ),
+          Image.network(
+            'https://th.bing.com/th/id/R.1816c51377b126cc3a42f5e83656506a?rik=HvR3iBwDaDZw%2bg&riu=http%3a%2f%2fpic.616pic.com%2fys_img%2f00%2f92%2f68%2fmVu0vDS5TA.jpg&ehk=y%2fvSH2nBmbV5p8oa17VL%2bhOt4mfmhHaSxNpLUU%2bxEbI%3d&risl=&pid=ImgRaw&r=0',
+            height: 100,
+            width: 100,
+          ),
+          Text(
+            "BIODATA DIRI",
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+          ),
           SizedBox(height: 20),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children:[
-              Text("Nama:"),
-              SizedBox(height: 5),
-              Text("Tuti Yohanti"),
-            ]
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children:[
-              Text("NPM:"),
-              SizedBox(height: 5),
-              Text("20421045"),
-            ]
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children:[
-              Text("Prodi:"),
-              SizedBox(height: 5),
-              Text("Informatika"),
-            ]
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children:[
-              Text("Universitas Bandar Lampung"),
-              SizedBox(height: 5),
-            ]
-          ),
-         Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children:[
-              Text("Angkatan 2020"),
-              SizedBox(height: 5),
-            ]
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children:[
-              Text("Lahir di Bumi Parahyangan"),
-              SizedBox(height: 5),
-            ]
-          ),
-        Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children:[
-              Text("Urang Sunda"),
-              SizedBox(height: 5),
-            ]
-          ),
-        ],)
-      ),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text("Nama:"),
+            SizedBox(height: 5),
+            Text("Hamid Alwi"),
+          ]),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text("NPM:"),
+            SizedBox(height: 5),
+            Text("20421048"),
+          ]),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text("Prodi:"),
+            SizedBox(height: 5),
+            Text("Informatika"),
+          ]),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text("Universitas Bandar Lampung"),
+            SizedBox(height: 5),
+          ]),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text("Angkatan 2020"),
+            SizedBox(height: 5),
+          ]),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text("Lahir Kotabumi"),
+            SizedBox(height: 5),
+          ]),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text(""),
+            SizedBox(height: 5),
+          ]),
+        ],
+      )),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
@@ -156,4 +137,4 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
-} 
+}
